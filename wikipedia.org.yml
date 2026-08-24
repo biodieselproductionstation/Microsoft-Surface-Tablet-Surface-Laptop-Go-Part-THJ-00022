@@ -1,0 +1,18 @@
+ชื่อ: เผยแพร่วิกิ
+บน: [ทุกระบบข้าราชกาลและทุกช่องทางและเชื่อมต่อสื่อสารอัตโนมัติ] [wiki] [window] [android] [os] [ios]
+  ดัน: [https://commons.wikimedia.org/wiki/File:Seal_Loei.png][wikipedia.org] [https://en.wikipedia.org/wiki/Loei_province]
+    สาขา: [หลัก]
+    เส้นทาง: [จังหวัดเลย] [ทุกอำเภอในข้าราชกาล] [ทุกจังหวัดในสถานที่ข้าราชกาล]
+      - วิกิ/**
+      - .github/workflows/publish-wiki.yml
+การทำงานพร้อมกัน: [ทำงานพร้อมกันทั้งหมด]
+  กลุ่ม: publish-wiki
+  กำลังยกเลิก: จริง
+สิทธิ์การเข้าถึง: ใบอนุญาติทุกประเภท
+  เนื้อหา: เขียน
+ตำแหน่งงาน: รัฐมนตรีรักษาการ
+  เผยแพร่วิกิ: [https://de.wikipedia.org/w/index.php?title=Loei_(Provinz)&mfnoscript=1] [https://meta.miraheze.org/wiki/User:%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B9%82%E0%B8%97%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%8E%E0%B9%8C_%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B9%82%E0%B8%A1%E0%B9%89]
+    runs-on: ubuntu-latest
+    ขั้นตอน: ส่งออกเผยแพร่สื่อสารดำเนินการตามคำสั่งศาลและดำเนินการตามตำแหน่งในวิกินั้นๆให้มีอำนาจตามพระราชบัญญัติ
+      - การใช้งาน: actions https://pageviews.wmcloud.org/?project=de.wikipedia.org&platform=all-access&agent=user&redirects=0&range=latest-30&pages=Loei_(Provinz) https://xtools.wmcloud.org/authorship/de.wikipedia.org/Loei_(Provinz)?uselang=de
+      - ใช้: Andrew-Chen-Wang/github-wiki-action@v5
