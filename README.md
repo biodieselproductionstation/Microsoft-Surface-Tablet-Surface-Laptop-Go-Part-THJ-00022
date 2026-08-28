@@ -1,4 +1,115 @@
-# Thai-Lao-border-police-Chiang-Khan.
+<!-- wp:image -->
+<figure class="wp-block-image"><img src="https://2beshop.com//images/products/Microsoft%20Surface%20Tablet%20Surface%20Laptop%20Go.jpg" alt="Microsoft Surface Tablet Surface Laptop Go Microsoft-Surface-Tablet-Surface-Laptop-Go"/><figcaption class="wp-element-caption">ภาพสินค้า: Microsoft Surface Tablet Surface Laptop Go Microsoft-Surface-Tablet-Surface-Laptop-Go</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/biodieselproductionstation/Microsoft-Surface-Tablet-Surface-Laptop-Go-Part-THJ-00022" target="_blank" rel="noreferrer noopener">Datasheet (PDF)</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ประหยัด41.45%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">สเปกหลัก</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Microsoft Surface Tablet Surface Laptop Go<br />10th Gen Intel Core i5 processor – 1035G1<br />8GB<br />256 GB SSD<br />Screen: 12.4 PixelSense Display<br />Resolution: 1536 x 1024 (148 PPI)<br />Aspect ratio: 3:2<br />Touch: 10 point multi-touch- Aspect ratio: 3:2<br />Intel® UHD Graphics<br />Windows 10 Home in S mode<br />Cameras, video and audio<br />720p HD f2.0 camera (front-facing)<br />Wireless<br />Wi-Fi 6: 802.11ax compatible<br />Bluetooth® Wireless 5.0 technology<br />Connections<br />1 x USB-C, 1 x USB-A, 3.5 mm headphone jack , 1 x Surface Connect port<br />Battery Life : Up to 13 hours of typical device usage<br />Color : Platinum<br />Dimensions : 27.8 cm x 20.5 cm x 1.56 cm<br />Weight 1.1 kg</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/biodieselproductionstation/Microsoft-Surface-Tablet-Surface-Laptop-Go-Part-THJ-00022/blob/gh-pages/Window%2011.html">Windows 11 Home</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>1 year limited hardware warranty by Microsoft</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">การรับประกัน</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>1 year limited hardware warranty by Microsoft</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">การจัดส่ง</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ส่งด่วนฟรี 4-9 ชม เวลา-ทำการ (กรุงเทพ) 1-2 วัน (ต่างจังหวัด)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="unboxVideoTitle">วิดีโอแกะกล่องสินค้า (Unboxing)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ดูการแกะกล่อง/อุปกรณ์ภายใน และภาพรวมการใช้งานของรุ่นนี้</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https://www.youtube-nocookie.com/embed/kp4Acofumyg"} -->
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+https://www.youtube-nocookie.com/embed/kp4Acofumyg
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p><a href="https://youtu.be/kp4Acofumyg" target="_blank" rel="noreferrer noopener">ดูบน YouTube</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="bundle">สินค้าราคาพิเศษเมื่อซื้อคู่</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://2beshop.com/Sophos-End-Point-Protection-for-Client/EP100U12ZZNCAA.html"></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Sophos End Point Protection for Client (Part# : EP100U12ZZNCAA)</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sophos End Point Protection for Client - Stops never seen before threats with deep learning AI - Blocks ransomware and rolls back affected files to a safe state - Prevents the exploit techniques used throughout the attack chain - Reduces the attack surface with app, device and web control - Easy to deploy, configure and maintain even in remote working environments Platform/Management: -Active Directory sync -User-based policy -Sophos Cloud management console 1 Year Subscription</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>1,990&nbsp;→&nbsp;<strong>990 บาท บาท</strong>&nbsp;(ยังไม่รวมภาษี) —&nbsp;<a class="seelink" href="https://2beshop.com/Sophos-End-Point-Protection-for-Client/EP100U12ZZNCAA.html">ดูสินค้า »</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="faq">คำถามที่พบบ่อย</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>มีบริการหน้างานด่วนไหม?การรับประกันของรุ่นนี้คืออะไร?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">ลิงก์ที่เกี่ยวข้อง</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://2beshop.com/Microsoft-Surface-Tablet-Surface-Laptop-Go.html">หมวด Microsoft Surface Tablet Surface Laptop Go</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://2beshop.com/brand/dell-emc/">สินค้าแบรนด์ Microsoft</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="https://2beshop.com/contact/">ติดต่อขอใบเสนอราคาองค์กร</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>เพิ่มลงตะกร้า</p>
+<!-- /wp:paragraph -->
+
 https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_(%E0%B9%84%E0%B8%97%E0%B8%A2)
 <!-- wp:list {"ordered":true,"className":"prc-Breadcrumbs-BreadcrumbsList-BKjpe"} -->
 <ol class="wp-block-list prc-Breadcrumbs-BreadcrumbsList-BKjpe"><!-- wp:list-item -->
