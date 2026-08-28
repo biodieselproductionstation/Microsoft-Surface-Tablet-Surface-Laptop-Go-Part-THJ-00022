@@ -327,3 +327,330 @@ jobs:
 <!-- wp:paragraph -->
 <p>To test the action, open a PR! The&nbsp;<code>test-action.yml</code>&nbsp;workflow will run the code with&nbsp;<code>dry-run: true</code>&nbsp;as well as a real run! Yes, this does get tedious swapping between your IDE and the PR, but it's the easiest way to test the action</p>
 <!-- /wp:paragraph -->
+---
+title: "Web Content Accessibility Guidelines (WCAG) 2 Level AA Conformance"
+title_html: "Web Content Accessibility Guidelines (WCAG) 2<br>Level AA Conformance"
+lang: en
+last_updated: 2026-02-20
+permalink: /WCAG2AA-Conformance
+ref: /WCAG2AA-Conformance
+
+github:
+  label: wai-wcag-intro
+
+layout: minimal
+class: tight-page
+---
+
+  <p><img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA-blue.png" alt="W3C WCAG 2.2 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA.png" alt="W3C WCAG 2.2 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.2 at Level AA.</p>
+  <p><img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-blue-v.png" alt="W3C WCAG 2.1 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-v.png" alt="W3C WCAG 2.1 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.1 at Level AA.</p>
+  <p><img src="https://www.w3.org/WAI/wcag2AA-blue.png" alt="W3C WCAG 2.0 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag2AA.png" alt="W3C WCAG 2.0 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.0 at Level AA.</p>
+  <p><strong><em>Important note:</em> Claims are not verified by W3C. Content providers are solely responsible for the use of these logos.</strong></p>
+  <h2>About WCAG</h2>
+  <p>Web Content Accessibility Guidelines (WCAG) explains how to make web content more accessible to people with disabilities. WCAG covers web sites, applications, and other digital content. It is developed by the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). WCAG is an international standard.</p>
+  <p>There are three levels of conformance:</p>
+  <ul>
+    <li>Level A is the minimum level.</li>
+    <li>Level AA includes all Level A and AA requirements. Many organizations strive to meet Level AA.</li>
+    <li>Level AAA includes all Level A, AA, and AAA requirements.</li>
+  </ul>
+  <h2>Learn More</h2>
+  <p>To learn more, please see:</p>
+  <ul>
+    <li><strong><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" rel="nofollow">Introduction to Web Accessibility</a></strong></li>
+    <li><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="nofollow">Web Content Accessibility Guidelines (WCAG) Overview</a></strong></li>
+  </ul>
+  <p><em>(Content providers: see also <a href="https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos" rel="nofollow">Adding WCAG Conformance Logos</a>.)</em></p>
+# Remote-Repositorys verwalten
+
+Lerne, wie du mit deinen lokalen Repositories auf deinem Computer und mit Remote-Repositories auf GitHub arbeitest.
+
+## Hinzufügen eines Remoterepositorys
+
+Verwende zum Hinzufügen eines neuen Remoterepositorys im Terminal den Befehl `git remote add` in dem Verzeichnis, in dem dein Repository gespeichert ist.
+
+Der Befehl `git remote add` akzeptiert zwei Argumente:
+
+* Ein Remote-Name (beispielsweise `origin`)
+* Eine Remote-URL (beispielsweise `https://github.com/OWNER/REPOSITORY.git`)
+
+Zum Beispiel:
+
+```shell
+$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+```
+
+Weitere Informationen zur zu verwendenden URL findest du unter [Informationen zu Remote-Repositorys](/de/get-started/git-basics/about-remote-repositories).
+
+### Problembehandlung: Das Remoterepository „origin“ ist bereits vorhanden.
+
+Dieser Fehler bedeutet, dass du versucht hast, ein Remote hinzuzufügen, dessen Name bereits in deinem lokalen Repository existiert.
+
+```shell
+$ git remote add origin https://github.com/octocat/Spoon-Knife.git
+> fatal: remote origin already exists.
+```
+
+Du kannst das Problem wie folgt beheben:
+
+* Verwende einen anderen Namen für das Remoterepository.
+* Benenne das vorhandene Remoterepository um, bevor du das neue Remoterepository hinzufügst. Weitere Informationen findest du weiter unten unter [Umbenennen eines Remoterepositorys](#renaming-a-remote-repository).
+* Löschen Sie das bestehende Remote-Repository, bevor Sie das neue Remote-Repository hinzufügen. Weitere Informationen findest du weiter unten unter [Entfernen eines Remoterepositorys](#removing-a-remote-repository).
+
+## Ändern der URL eines Remoterepositorys
+
+Der Befehl `git remote set-url` dient zum Ändern der URL eines vorhandenen Remoterepositorys.
+
+> \[!TIP]
+> Weitere Informationen zum Unterschied zwischen HTTPS- und SSH-URLs findest du unter [Informationen zu Remote-Repositorys](/de/get-started/git-basics/about-remote-repositories).
+
+Der Befehl `git remote set-url` akzeptiert zwei Argumente:
+
+* einen vorhandenen Remote-Namen.
+  `origin` und `upstream` werden beispielsweise häufig verwendet.
+* Eine neue URL für das Remote. Zum Beispiel:
+
+  * Wenn Du eine Aktualisierung auf HTTPS durchführst, sieht die URL ähnlich aus wie folgende:
+
+  ```shell
+  https://github.com/OWNER/REPOSITORY.git
+  ```
+
+  * Wenn Du eine Aktualisierung auf SSH durchführst, sieht die URL ähnlich aus wie folgende:
+
+  ```shell
+  git@github.com:OWNER/REPOSITORY.git
+  ```
+
+### Remote-URLs von SSH auf HTTPS umstellen
+
+1. Öffne <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span>.
+
+2. Ändere das aktuelle Arbeitsverzeichnis zu deinem lokalen Projekt.
+
+3. Liste die vorhandenen Remotes auf, um den Namen des Remote zu erhalten, den du ändern möchtest.
+
+   ```shell
+   $ git remote -v
+   > origin  git@github.com:OWNER/REPOSITORY.git (fetch)
+   > origin  git@github.com:OWNER/REPOSITORY.git (push)
+   ```
+
+4. Ändere die URL deines Remotes von SSH zu HTTPS mit dem Befehl `git remote set-url`.
+
+   ```shell
+   git remote set-url origin https://github.com/OWNER/REPOSITORY.git
+   ```
+
+5. Überprüfe, ob die Remote-URL geändert wurde.
+
+   ```shell
+   $ git remote -v
+   # Verify new remote URL
+   > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+   > origin  https://github.com/OWNER/REPOSITORY.git (push)
+   ```
+
+Wenn Sie das nächste Mal `git fetch`, `git pull` oder `git push` an das Remote-Repository ausführen, werden Sie nach Ihrem GitHub-Benutzernamen und -Kennwort gefragt. Wenn Git Sie zur Eingabe Ihres Kennworts auffordert, geben Sie Ihr personal access token ein. Alternativ kann ein Hilfsprogramm für Anmeldedaten wie die [Git Anmeldeinformationsverwaltung](https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md) verwendet werden. Die kennwortbasierte Authentifizierung für Git wurde zugunsten sichererer Authentifizierungsmethoden aufgegeben. Weitere Informationen finden Sie unter [Verwalten deiner persönlichen Zugriffstoken](/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+
+Sie können einen [Anmeldeinformationen-Helfer verwenden](/de/get-started/git-basics/caching-your-github-credentials-in-git), damit Git sich jedes Mal, wenn es mit GitHub kommuniziert, Ihren GitHub-Benutzernamen und personal access token merkt.
+
+### Umstellen von Remote-URLs von HTTPS auf SSH
+
+1. Öffne <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span>.
+
+2. Ändere das aktuelle Arbeitsverzeichnis zu deinem lokalen Projekt.
+
+3. Liste die vorhandenen Remotes auf, um den Namen des Remote zu erhalten, den du ändern möchtest.
+
+   ```shell
+   $ git remote -v
+   > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+   > origin  https://github.com/OWNER/REPOSITORY.git (push)
+   ```
+
+4. Ändern Sie die Remote-URL mithilfe des Befehls `git remote set-url` von HTTPS auf SSH.
+
+   ```shell
+   git remote set-url origin git@github.com:OWNER/REPOSITORY.git
+   ```
+
+5. Überprüfe, ob die Remote-URL geändert wurde.
+
+   ```shell
+   $ git remote -v
+   # Verify new remote URL
+   > origin  git@github.com:OWNER/REPOSITORY.git (fetch)
+   > origin  git@github.com:OWNER/REPOSITORY.git (push)
+   ```
+
+### Problembehandlung: Es ist kein Remoterepository mit dem Namen „\[Name]“ vorhanden.
+
+Dieser Fehler bedeutet, dass das Remote, das Sie zu ändern versucht haben, nicht existiert:
+
+```shell
+$ git remote set-url sofake https://github.com/octocat/Spoon-Knife
+> fatal: No such remote 'sofake'
+```
+
+Überprüfe, ob Du den Namen des Remote korrekt eingegeben hast.
+
+## Umbenennen eines Remoterepositorys
+
+Verwende den Befehl `git remote rename`, um einen vorhandenen Remote umzubenennen.
+
+Der Befehl `git remote rename` akzeptiert zwei Argumente:
+
+* Ein vorhandener Remote-Name, zum Beispiel `origin`
+* Ein neuer Name für die Remote, beispielsweise `destination`
+
+### Beispiel für die Umbenennung eines Remoterepositorys
+
+In diesen Beispielen wird davon ausgegangen, dass du [beim Klonen HTTPS verwendest](/de/get-started/git-basics/about-remote-repositories#cloning-with-https-urls) (wie empfohlen).
+
+```shell
+$ git remote -v
+# View existing remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+$ git remote rename origin destination
+# Change remote name from 'origin' to 'destination'
+
+$ git remote -v
+# Verify remote's new name
+> destination  https://github.com/OWNER/REPOSITORY.git (fetch)
+> destination  https://github.com/OWNER/REPOSITORY.git (push)
+```
+
+### Problembehandlung: Der Konfigurationsabschnitt „remote.\[alter Name]“ konnte nicht in „remote.\[neuer Name]“ umbenannt werden.
+
+Dieser Fehler bedeutet, dass der alte Remote-Name, den du eingegeben hast, nicht existiert.
+
+Mit dem Befehl `git remote -v` kannst du überprüfen, welche Remoterepositorys vorhanden sind:
+
+```shell
+$ git remote -v
+# View existing remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+```
+
+### Problembehandlung: Das Remoterepository „\[neuer Name]“ ist bereits vorhanden.
+
+Wenn dieser Fehler ausgegeben wird, wird der Name, in den Du das Remote-Repository umbenennen möchtest, bereits verwendet. Verwende entweder einen anderen Namen für das Remote, oder benenne das ursprüngliche Remote um.
+
+## Entfernen eines Remoterepositorys
+
+Verwende den Befehl `git remote rm`, um eine Remote-URL aus deinem Repository zu entfernen.
+
+Der Befehl `git remote rm` akzeptiert ein einzelnes Argument:
+
+* Einen Remote-Name (beispielsweise `destination`)
+
+Wenn du die Remote-URL aus deinem Repository entfernst, wird lediglich die Verknüpfung zwischen lokalem Repository und Remoterepository aufgehoben. Das Remoterepository wird dadurch nicht gelöscht.
+
+### Beispiel für das Entfernen eines Remoterepositorys
+
+In diesen Beispielen wird davon ausgegangen, dass du [beim Klonen HTTPS verwendest](/de/get-started/git-basics/about-remote-repositories#cloning-with-https-urls) (wie empfohlen).
+
+```shell
+$ git remote -v
+# View current remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+> destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+$ git remote rm destination
+# Remove remote
+$ git remote -v
+# Verify it's gone
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+```
+
+> \[!NOTE]
+> Durch `git remote rm` wird das Remoterepository nicht vom Server gelöscht. Der Befehl entfernt lediglich den Remote und die zugehörigen Verweise aus deinem lokalen Repository.
+
+### Problembehandlung: Der Konfigurationsabschnitt „remote.\[Name]“ konnte nicht entfernt werden.
+
+Wenn dieser Fehler angezeigt wird, existiert das Remote, das Sie löschen wollten, nicht.
+
+```shell
+$ git remote rm sofake
+> error: Could not remove config section 'remote.sofake'
+```
+
+Überprüfe, ob Du den Namen des Remote korrekt eingegeben hast.
+
+## Weiterführende Lektüre
+
+* ```
+            [„Arbeiten mit Remoterepositorys“ aus dem _Pro Git_-Buch](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+  ```
+  > ## Documentation Index
+> Fetch the complete documentation index at: https://modelcontextprotocol.io/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# What is the Model Context Protocol (MCP)?
+
+MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
+
+Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
+
+Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
+
+<Frame>
+  <img src="https://mintcdn.com/mcp/bEUxYpZqie0DsluH/images/mcp-simple-diagram.png?fit=max&auto=format&n=bEUxYpZqie0DsluH&q=85&s=35268aa0ad50b8c385913810e7604550" width="3840" height="1500" data-path="images/mcp-simple-diagram.png" />
+</Frame>
+
+## What can MCP enable?
+
+* Agents can access your Google Calendar and Notion, acting as a more personalized AI assistant.
+* Claude Code can generate an entire web app using a Figma design.
+* Enterprise chatbots can connect to multiple databases across an organization, empowering users to analyze data using chat.
+* AI models can create 3D designs on Blender and print them out using a 3D printer.
+
+## Why does MCP matter?
+
+Depending on where you sit in the ecosystem, MCP can have a range of benefits.
+
+* **Developers**: MCP reduces development time and complexity when building, or integrating with, an AI application or agent.
+* **AI applications or agents**: MCP gives them access to an ecosystem of data sources, tools and apps, which enhances their capabilities and improves the end-user experience.
+* **End-users**: MCP results in more capable AI applications or agents that can access user data and take actions on the user's behalf when necessary.
+
+## Broad ecosystem support
+
+MCP is an open protocol supported across a wide range of clients and servers. AI assistants like [Claude](https://claude.com/docs/connectors/building) and [ChatGPT](https://developers.openai.com/api/docs/mcp/), development tools like [Visual Studio Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers), [Cursor](https://cursor.com/docs/context/mcp), [MCPJam](https://docs.mcpjam.com/getting-started), and many others all support MCP — making it easy to build once and integrate everywhere.
+
+## Start Building
+
+<CardGroup cols={2}>
+  <Card title="Build servers" icon="server" href="/docs/2026-07-28/develop/build-server">
+    Create MCP servers to expose your data and tools
+  </Card>
+
+  <Card title="Build clients" icon="computer" href="/docs/2026-07-28/develop/build-client">
+    Develop applications that connect to MCP servers
+  </Card>
+
+  <Card title="Build MCP Apps" icon="puzzle-piece" href="/extensions/apps/overview">
+    Build interactive apps that run inside AI clients
+  </Card>
+</CardGroup>
+
+## Learn more
+
+<CardGroup cols={2}>
+  <Card title="Understand concepts" icon="book" href="/docs/2026-07-28/learn/architecture">
+    Learn the core concepts and architecture of MCP
+  </Card>
+</CardGroup>
+
